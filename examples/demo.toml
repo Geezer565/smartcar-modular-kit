@@ -1,0 +1,8 @@
+[simulation]
+resolution = 0.2
+robot_radius = 0.16
+planning_clearance = 0.4
+dt = 0.05
+max_steps = 2500
+speed = 0.45
+lookahead = 0.42

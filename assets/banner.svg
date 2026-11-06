@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="420" viewBox="0 0 1280 420" role="img" aria-label="SmartCar Kit: From a route to a robot. Planning, motion, mission, protection and communication.">
+<defs>
+<linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b1220"/><stop offset="1" stop-color="#142c40"/></linearGradient>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#31516c" stroke-opacity=".3"/></pattern>
+<linearGradient id="route" x2="1" y2="0"><stop stop-color="#36d6bc"/><stop offset="1" stop-color="#88eee0"/></linearGradient>
+</defs>
+<rect width="1280" height="420" rx="24" fill="url(#bg)"/>
+<rect x="720" width="560" height="420" rx="24" fill="url(#grid)"/>
+<text x="64" y="78" fill="#36d6bc" font-family="sans-serif" font-size="15" letter-spacing="4">INDEPENDENT ROBOTICS TOOLKIT</text>
+<text x="60" y="161" fill="#f1f7ff" font-family="sans-serif" font-size="70" font-weight="700">SmartCar Kit</text>
+<text x="64" y="216" fill="#adc1d8" font-family="sans-serif" font-size="27">From a route to a robot.</text>
+<text x="64" y="269" fill="#8ca5bf" font-family="sans-serif" font-size="16">PLAN / FOLLOW / PROTECT / CONNECT</text>
+<rect x="64" y="314" width="143" height="34" rx="17" fill="#153b39"/><text x="84" y="337" fill="#78e4d2" font-family="sans-serif" font-size="14">Python 3.11+</text>
+<rect x="220" y="314" width="167" height="34" rx="17" fill="#26364b"/><text x="240" y="337" fill="#c8d8ed" font-family="sans-serif" font-size="14">No runtime deps</text>
+<rect x="400" y="314" width="146" height="34" rx="17" fill="#3c3425"/><text x="421" y="337" fill="#f5ce87" font-family="sans-serif" font-size="14">Software demo</text>
+<rect x="854" y="65" width="48" height="168" rx="8" fill="#39536b"/>
+<rect x="1042" y="196" width="48" height="161" rx="8" fill="#39536b"/>
+<path d="M774 318 C790 318 792 266 792 235 V146 Q792 113 824 113 Q840 113 840 78 Q840 43 920 43 Q975 43 975 93 V278 Q975 328 1012 328 Q1025 328 1025 370 Q1025 390 1114 390 Q1168 390 1168 338 V140" fill="none" stroke="#f5b85a" stroke-dasharray="8 9" stroke-opacity=".7" stroke-width="2"/>
+<path d="M774 318 Q813 318 813 254 V108 Q813 64 890 64 Q955 64 955 116 V290 Q955 369 1043 369 Q1148 369 1148 298 V140" fill="none" stroke="url(#route)" stroke-width="5" stroke-linecap="round"/>
+<circle cx="774" cy="318" r="8" fill="#36d6bc"/>
+<circle cx="1148" cy="140" r="13" fill="#142c40" stroke="#f5b85a" stroke-width="3"/>
+<g transform="translate(955 230) rotate(90)"><rect x="-23" y="-14" width="46" height="28" rx="8" fill="#3cddc3"/><path d="M10-7 19 0 10 7" fill="none" stroke="#073f39" stroke-width="3"/><rect x="-16" y="-19" width="12" height="6" rx="2" fill="#9ef4e5"/><rect x="-16" y="13" width="12" height="6" rx="2" fill="#9ef4e5"/></g>
+</svg>

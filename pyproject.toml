@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "smartcar-modular-kit"
+version = "0.1.0"
+description = "Independent mobile robot modules with planning, control, safety and replay"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {file = "LICENSE"}
+authors = [{name = "Geezer565"}]
+dependencies = []
+keywords = ["robotics", "smart-car", "path-planning", "motion-control", "simulation"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent",
+  "Topic :: Scientific/Engineering",
+]
+
+[project.scripts]
+smartcar-kit = "smartcar_kit.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["smartcar_kit*"]
